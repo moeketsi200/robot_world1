@@ -1,0 +1,7 @@
+target/*
+original_test_src/*
+*.class
+*.jar
+*.flot
+!libs/*.jar
+grade_output.txt

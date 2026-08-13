@@ -1,0 +1,40 @@
+image: maven:3.9-eclipse-temurin-21
+
+stages:
+  - compile
+  - unit-test
+  - package
+  - acceptance-test
+
+variables:
+  MAVEN_OPTS: "-Dmaven.repo.local=$CI_PROJECT_DIR/.m2/repository"
+
+before_script:
+  - git config --global user.email "ci@gitlab.wethinkco.de"
+  - git config --global user.name "CI Runner"
+
+cache:
+  key: "$CI_COMMIT_REF_SLUG"
+  paths:
+    - .m2/repository/
+
+compile_job:
+  stage: compile
+  script:
+    - mvn -DskipTests compile
+
+unit_test_job:
+  stage: unit-test
+  script:
+    - mvn test
+
+package_job:
+  stage: package
+  script:
+    - mvn -DskipTests package
+
+acceptance_test_job:
+  stage: acceptance-test
+  script:
+    - chmod +x scripts/run-acceptance-tests.sh
+    - ./scripts/run-acceptance-tests.sh

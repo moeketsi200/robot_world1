@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+  <style>
+    .cls-box { fill:#ffffff; stroke:#333333; stroke-width:2; rx:6; }
+    .cls-title { font: bold 14px sans-serif; fill:#111111 }
+    .cls-attr { font: 12px monospace; fill:#222222 }
+    .cls-conn { stroke:#555555; stroke-width:2; marker-end: url(#arrow); }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#555555" />
+    </marker>
+  </defs>
+
+  <!-- Server box -->
+  <rect class="cls-box" x="60"  y="40"  width="240" height="120"/>
+  <text class="cls-title" x="80" y="62">Server</text>
+  <text class="cls-attr" x="80" y="84">- port : int</text>
+  <text class="cls-attr" x="80" y="100">- world : World</text>
+  <text class="cls-attr" x="80" y="116">+start()</text>
+
+  <!-- World box -->
+  <rect class="cls-box" x="380" y="40" width="220" height="120"/>
+  <text class="cls-title" x="400" y="62">World</text>
+  <text class="cls-attr" x="400" y="84">- width : int</text>
+  <text class="cls-attr" x="400" y="100">- height : int</text>
+  <text class="cls-attr" x="400" y="116">+placeRobot(r): boolean</text>
+
+  <!-- Robot box -->
+  <rect class="cls-box" x="740" y="40" width="200" height="120"/>
+  <text class="cls-title" x="760" y="62">Robot</text>
+  <text class="cls-attr" x="760" y="84">- name : String</text>
+  <text class="cls-attr" x="760" y="100">- x,y : int</text>
+  <text class="cls-attr" x="760" y="116">+updatePosition(n, world)</text>
+
+  <!-- Connections -->
+  <line class="cls-conn" x1="300" y1="100" x2="380" y2="100"/>
+  <text x="330" y="92" font-size="12" fill="#333">has</text>
+
+  <line class="cls-conn" x1="600" y1="100" x2="740" y2="100"/>
+  <text x="680" y="92" font-size="12" fill="#333">contains</text>
+
+  <!-- Command & interface -->
+  <rect class="cls-box" x="60" y="200" width="220" height="90"/>
+  <text class="cls-title" x="80" y="224">Command (interface)</text>
+  <text class="cls-attr" x="80" y="244">+execute(req, socket): String</text>
+
+  <rect class="cls-box" x="320" y="200" width="200" height="90"/>
+  <text class="cls-title" x="340" y="224">JsonProtocol</text>
+  <text class="cls-attr" x="340" y="244">+requestFromConsoleInput()</text>
+
+  <line class="cls-conn" x1="200" y1="290" x2="320" y2="290"/>
+  <text x="240" y="282" font-size="12" fill="#333">uses</text>
+
+  <!-- Client box -->
+  <rect class="cls-box" x="640" y="200" width="220" height="90"/>
+  <text class="cls-title" x="660" y="224">Client</text>
+  <text class="cls-attr" x="660" y="244">+main(args)</text>
+
+  <line class="cls-conn" x1="540" y1="180" x2="640" y2="240"/>
+  <text x="560" y="170" font-size="12" fill="#333">connects to</text>
+
+  <!-- Legend / sources -->
+  <text x="60" y="420" font-size="12" fill="#333">PlantUML source: diagram.puml</text>
+  <text x="60" y="440" font-size="12" fill="#333">This is a static preview SVG generated for repository preview.</text>
+
+</svg>

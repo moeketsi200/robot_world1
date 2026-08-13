@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f1e04b5-fbb3-443b-932a-fae5c8a2700a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/wethinkcode/robots/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/wethinkcode/robots/server/Server.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="98" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="koketso" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.3593089712059878" />
+      <entry key="MS500" value="2.803980158867705" />
+      <entry key="S2" value="5.232742985493337" />
+      <entry key="S5" value="7.521079052853592" />
+      <entry key="S10" value="9.814613502204354" />
+      <entry key="S30" value="12.751003040030382" />
+      <entry key="S60" value="13.791230436134645" />
+      <entry key="M2" value="14.379359454447021" />
+      <entry key="M5" value="15.439085273353552" />
+      <entry key="M10" value="19.53588573279393" />
+      <entry key="M15" value="28.053401224419165" />
+      <entry key="M30" value="70.72209970811356" />
+      <entry key="H1" value="158.5257966679878" />
+      <entry key="H2" value="306.6166073832242" />
+      <entry key="H4" value="509.26209056295454" />
+      <entry key="D1" value="889.4571309900449" />
+      <entry key="W1" value="991.5191710678943" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="9.92780767435708E-202" />
+      <entry key="S5" value="3.9695505982864076E-81" />
+      <entry key="S10" value="6.300436967612965E-41" />
+      <entry key="S30" value="3.9791492014907114E-14" />
+      <entry key="S60" value="1.9947804895504524E-7" />
+      <entry key="M2" value="4.466298020161299E-4" />
+      <entry key="M5" value="0.04588331229657241" />
+      <entry key="M10" value="0.23258989420959655" />
+      <entry key="M15" value="0.44661912431387657" />
+      <entry key="M30" value="1.0234358122056617" />
+      <entry key="H1" value="1.8811317283863833" />
+      <entry key="H2" value="3.6646219949964576" />
+      <entry key="H4" value="6.539376043498374" />
+      <entry key="D1" value="12.197471860184281" />
+      <entry key="W1" value="13.723798312131578" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.3214338505487353" />
+      <entry key="MS500" value="2.7809289855884596" />
+      <entry key="S2" value="5.2189672703412455" />
+      <entry key="S5" value="7.5101935932810875" />
+      <entry key="S10" value="9.80612087130929" />
+      <entry key="S30" value="12.746893585878992" />
+      <entry key="S60" value="13.788954572883206" />
+      <entry key="M2" value="14.378598788231281" />
+      <entry key="M5" value="15.48414158436888" />
+      <entry key="M10" value="19.767272640742227" />
+      <entry key="M15" value="28.498411648759692" />
+      <entry key="M30" value="71.7433137947398" />
+      <entry key="H1" value="160.4047161257117" />
+      <entry key="H2" value="310.2792767434029" />
+      <entry key="H4" value="515.7999175833969" />
+      <entry key="D1" value="901.6541689896145" />
+      <entry key="W1" value="1005.242900765122" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3Ea38E4Cwg3pCO05GZfxl9jOI1W" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Client.executor": "Run",
+    "Application.Server.executor": "Run",
+    "JUnit.ConfigTest.executor": "Run",
+    "JUnit.InitialPositionTest.executor": "Run",
+    "JUnit.MovementCommandTest.executor": "Run",
+    "JUnit.RandomPlacementTest.executor": "Run",
+    "JUnit.ReproduceIssueTest.executor": "Run",
+    "JUnit.RobotTest.executor": "Run",
+    "JUnit.ServerTest.executor": "Run",
+    "JUnit.WorldTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/wtc09/student_work/Java/oop-ex-toy-robot-group",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="za.co.wethinkcode.robots.client.Client" />
+      <module name="robot-world" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.co.wethinkcode.robots.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomPlacementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="robot-world" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.co.wethinkcode.robots.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="za.co.wethinkcode.robots.server" />
+      <option name="MAIN_CLASS_NAME" value="za.co.wethinkcode.robots.server.RandomPlacementTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RobotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="robot-world" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.co.wethinkcode.robots.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="za.co.wethinkcode.robots.server" />
+      <option name="MAIN_CLASS_NAME" value="za.co.wethinkcode.robots.server.RobotTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="robot-world" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.co.wethinkcode.robots.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="za.co.wethinkcode.robots.server" />
+      <option name="MAIN_CLASS_NAME" value="za.co.wethinkcode.robots.server.ServerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="robot-world" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.co.wethinkcode.robots.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="za.co.wethinkcode.robots.server" />
+      <option name="MAIN_CLASS_NAME" value="za.co.wethinkcode.robots.server.WorldTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="oop-ex-toy-robot-group" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="oop-ex-toy-robot-group" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="oop-ex-toy-robot-group" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="oop-ex-toy-robot-group" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="JUnit.ServerTest" />
+        <item itemvalue="JUnit.RobotTest" />
+        <item itemvalue="JUnit.WorldTest" />
+        <item itemvalue="JUnit.RandomPlacementTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f1e04b5-fbb3-443b-932a-fae5c8a2700a" name="Changes" comment="" />
+      <created>1780402693910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780402693910</updated>
+      <workItem from="1780402697291" duration="4771000" />
+      <workItem from="1780647093022" duration="10169000" />
+      <workItem from="1780746202830" duration="4277000" />
+      <workItem from="1780819766477" duration="12078000" />
+      <workItem from="1780905606510" duration="6800000" />
+      <workItem from="1780923725822" duration="2836000" />
+      <workItem from="1781010545148" duration="1819000" />
+      <workItem from="1781081530898" duration="10703000" />
+      <workItem from="1781266643189" duration="3256000" />
+      <workItem from="1781858559803" duration="76000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

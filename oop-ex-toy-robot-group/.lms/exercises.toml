@@ -1,0 +1,13 @@
+_version = 0.1
+
+[oop-ex-toy-robot-group]
+activity_id = "oop-ex-toy-robot-group"
+
+[team]
+members = [
+    "momotscc-g-025@student.wethinkcode.co.za",
+    "zustescc-g-025@student.wethinkcode.co.za",
+    "kotloscc-g-025@student.wethinkcode.co.za",
+    "liqotscc-g-025@student.wethinkcode.co.za",
+    "lemolscc-g-025@student.wethinkcode.co.za"
+]

@@ -1,0 +1,12 @@
+{
+  "port": 5050,
+  "worldSize": 2,
+  "mazeType": 3,
+  "obstacleCount": 30,
+  "repairTime": 3,
+  "reloadTime": 5,
+  "visibility": 5,
+  "maxShields": 5,
+  "maxShots": 5,
+  "customObstacles": []
+}

@@ -1,0 +1,63 @@
+{
+  "width": 200,
+  "height": 200,
+  "visibilityRange": 10,
+
+  "defaultShieldStrength": 5,
+
+  "reloadTimes": {
+    "normal": 1000,
+    "sniper": 3000,
+    "heavy": 1500,
+    "bomber": 2000
+  },
+  "obstacles": [
+    {
+      "x": 2,
+      "y": 3,
+      "type": "Rock"
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "type": "Pit"
+    },
+
+    {
+      "x": 30,
+      "y": 30,
+      "type": "Mountain"
+    },
+    {
+      "x": -20,
+      "y": 15,
+      "type": "Rock"
+    },
+    {
+      "x": 45,
+      "y": -10,
+      "type": "Lake"
+    },
+    {
+      "x": -50,
+      "y": -40,
+      "type": "Lake"
+    },
+    {
+      "x": 80,
+      "y": 70,
+      "type": "Mountain"
+    },
+    {
+      "x": 0,
+      "y": 50,
+      "type": "Rock"
+    },
+
+    {
+      "x": 59,
+      "y": 90,
+      "type": "Pit"
+    }
+  ]
+}

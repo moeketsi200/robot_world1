@@ -1,0 +1,109 @@
+@startuml
+title Robot World - Class Diagram
+
+package "za.co.wethinkcode.robots" {
+
+  class Server {
+    -int port
+    -World world
+    -Map<Socket, List<Robot>> robots
+    -Map<String, Command> commands
+    +main(String[] args)
+    +start()
+    +handleClient(Socket)
+    +selectRobotsForRequest(CommandRequest, Socket)
+  }
+
+  class World {
+    -int width
+    -int height
+    -List<WorldObject> objects
+    -List<Robot> robots
+    +placeRobot(Robot): boolean
+    +addRobot(Robot): boolean
+    +isPositionOpen(int,int): boolean
+  }
+
+  class Robot {
+    -String name
+    -String kind
+    -int x
+    -int y
+    -String direction
+    -int shields
+    -int shots
+    +getX(): int
+    +getY(): int
+    +updatePosition(int, World): String
+    +fireWeapon()
+    +reloadWeapon()
+  }
+
+  class WorldObject {
+    -int x
+    -int y
+    -String type
+  }
+
+  class CommandRequest {
+    -String command
+    -String robot
+    -List<String> arguments
+    +getCommand(): String
+  }
+
+  class JsonProtocol <<utility>> {
+    +requestFromConsoleInput(String): String
+    +messageFromResponseLine(String): String
+  }
+
+  class ServerResponse {
+    -String status
+    -String message
+  }
+
+  interface Command {
+    +execute(CommandRequest, Socket): String
+  }
+
+  ' Concrete command classes
+  class LaunchCommand
+  class FireCommand
+  class ReloadCommand
+  class ForwardCommand
+  class BackCommand
+  class LeftCommand
+  class RightCommand
+  class TurnCommand
+  class DumpCommand
+  class QuitCommand
+  class StateCommand
+  class RobotsCommand
+  class RepairCommand
+
+}
+
+' Relationships
+Server --> World : has
+World o-- Robot : "robots"
+World o-- WorldObject : "objects"
+Command <|.. LaunchCommand
+Command <|.. FireCommand
+Command <|.. ReloadCommand
+Command <|.. ForwardCommand
+Command <|.. BackCommand
+Command <|.. LeftCommand
+Command <|.. RightCommand
+Command <|.. TurnCommand
+Command <|.. DumpCommand
+Command <|.. QuitCommand
+Command <|.. StateCommand
+Command <|.. RobotsCommand
+Command <|.. RepairCommand
+
+Server --> CommandRequest : parses/uses
+Server --> JsonProtocol : uses
+Client ..> JsonProtocol : uses
+Client --> Server : connects to
+
+@enduml
